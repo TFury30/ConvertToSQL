@@ -65,6 +65,4 @@ All activities and errors are logged in a file named `ConvertToSql.log` in the c
 
 This script is maintained by Tobias Fourie.
 
-## License
-
 ---
