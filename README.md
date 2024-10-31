@@ -1,33 +1,6 @@
 
 ---
 
-
- ¦¦¦¦¦¦  ¦¦¦¦¦¦  ¦¦¦    ¦¦ ¦¦    ¦¦ ¦¦¦¦¦¦¦ ¦¦¦¦¦¦  ¦¦¦¦¦¦¦¦     ¦¦¦¦¦¦¦¦  ¦¦¦¦¦¦      ¦¦¦¦¦¦¦  ¦¦¦¦¦¦  ¦¦       
-¦¦      ¦¦    ¦¦ ¦¦¦¦   ¦¦ ¦¦    ¦¦ ¦¦      ¦¦   ¦¦    ¦¦           ¦¦    ¦¦    ¦¦     ¦¦      ¦¦    ¦¦ ¦¦       
-¦¦      ¦¦    ¦¦ ¦¦ ¦¦  ¦¦ ¦¦    ¦¦ ¦¦¦¦¦   ¦¦¦¦¦¦     ¦¦           ¦¦    ¦¦    ¦¦     ¦¦¦¦¦¦¦ ¦¦    ¦¦ ¦¦       
-¦¦      ¦¦    ¦¦ ¦¦  ¦¦ ¦¦  ¦¦  ¦¦  ¦¦      ¦¦   ¦¦    ¦¦           ¦¦    ¦¦    ¦¦          ¦¦ ¦¦ _  ¦¦ ¦¦       
- ¦¦¦¦¦¦  ¦¦¦¦¦¦  ¦¦   ¦¦¦¦   ¦¦¦¦   ¦¦¦¦¦¦¦ ¦¦   ¦¦    ¦¦           ¦¦     ¦¦¦¦¦¦      ¦¦¦¦¦¦¦  ¦¦\\¦¦  ¦¦¦¦¦¦¦ 
-                                                                                                   \\
-
-   ConvertToSQL.ps1 - A PowerShell script for converting files into SQL INSERT and DELETE commands.
-     
-     How To Use:
-       -file <Path to File>          Path to the file (CSV) to be converted to SQL.
-       -folder <Folder>              Path to a directory that contains files to be converted.
-       -table <TableName>            Name of the table into which the data is to be inserted.
-                                       Defaultwert : $$TableName§§
-     
-     Example:
-       .\ConvertToSQL.ps1 -file    'C:\Daten\Datei.csv' -table 'MeineTabelle'
-       .\ConvertToSQL.ps1 -folder  'C:\Daten'
-     
-     Description:
-       This script reads data from files (CSV) and converts them into SQL INSERT and DELETE commands.
-       If a directory input is used, all supported files in the directory are processed.
-
-
-
-
 # ConvertToSQL.ps1
 
 ## Overview
